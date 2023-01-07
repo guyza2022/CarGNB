@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="Sign_style.css">
+  </head>
+  <body>
+    <div class="box-form">
+      <div class="left">
+       
+        <div class="overlay">
+          <!--
+        <h1>Car GNB</h1>
+        <p>Fuckin gay cooperation</p>
+        <span>
+          <p>Are you GAY?</p>
+          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> YES</a>
+          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> NO </a>
+        </span>
+        -->
+        </div>
+      
+
+      </div>
+      
+      <div class="center">
+        <h1>Sign up</h1>
+        <form action = "process_signup.php" method="post" novalidate>
+          <div class="txt_field">
+            <input type="text" required id="email" name="email">
+            <span></span>
+            <label>Email Address</label>
+          </div>
+          <div class="txt_field">
+            <input type="text" required id="username" name="username">
+            <span></span>
+            <label>Username</label>
+          </div>
+          <div class="txt_field">
+            <input type="password" required id="password" name="password">
+            <span></span>
+            <label>Password</label>
+          </div>
+          <div class="txt_field">
+            <input type="password" required id="conpassword" name="conpassword">
+            <span></span>
+            <label>Confirm Password</label>
+          </div>
+          <label>
+            <input type="checkbox" name="item" checked/>
+            <span class="text-checkbox">Accept terms and conditions</span>
+          </label>
+          <input type="submit" value="Next">
+    
+        </form>
+      </div>
+    </div>
+
+  </body>
+</html>

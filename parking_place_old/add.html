@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="add_style.css">
+    <link rel="stylesheet" href="../root.css">
+  </head>
+  <body>
+
+    <div id="box-form">
+      <div class="left">
+       
+        <div class="overlay">
+          <!--
+        <h1>Car GNB</h1>
+        <p>Fuckin gay cooperation</p>
+        <span>
+          <p>Are you GAY?</p>
+          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> YES</a>
+          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> NO </a>
+        </span>
+        -->
+        </div>
+      
+
+      </div>
+      
+      <div class="center">
+        <h1>Upload</h1>
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+          <div class="txt_field">
+            <input type="text" required id="name" name="name">
+            <span></span>
+            <label>Name</label>
+          </div>
+          <div class="txt_field">
+            <input type="text" required id="price" name="price">
+            <span></span>
+            <label>Price</label>
+          </div>
+          <div class="txt_field">
+            <input type="text" required id="size" name="size">
+            <span></span>
+            <label>Size</label>
+          </div>
+          <div class="txt_field">
+            <input type="text" required id="amount" name="amount">
+            <span></span>
+            <label>Amount</label>
+          </div>
+          
+          
+            Select Image Files to Upload:
+            <input type="file" name="files[]" multiple >
+            <input type="submit" name="submit" value="UPLOAD">
+        </form>
+
+    
+        </form>
+      </div>
+    </div>
+
+  </body>
+</html>

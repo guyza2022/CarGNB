@@ -1,0 +1,41 @@
+<div id="left-panel">
+        <div class="profile">
+          <img src="guy.png" class="img-box">
+          <span style = "text-align: left;">
+            <h1>Boonyakorn</h1>
+            <h1>Rathasamuth</h1>
+            <h2>Mazda2 จง2022</h2>
+          </span>
+        </div>
+        <div class="left-overlay">
+          
+        <span>
+          <ul>
+            <li> <a href="">Member <br> Gold</a></li>
+            <li> <a href="">Balance <br> 20 THB</a></li>
+            <li> <a href=""> Points <br>781</a></li>
+        </ul>
+        </span>
+        <div class="sidebar">
+          <a href="#" class="active">
+            <h3>Dashboard</h3>
+          </a>
+          <a href="#">
+            <h3>Wallet</h3>
+          </a>
+          <a href="#">
+            <h3>Account</h3>
+          </a>
+          <a href="#">
+            <h3>Vehicles</h3>
+          </a>
+          <a href="#">
+            <h3>Support</h3>
+          </a>
+          <a href="#">
+            <h3>Logout</h3>
+          </a>
+          
+        </div>
+        </div>
+      </div>
